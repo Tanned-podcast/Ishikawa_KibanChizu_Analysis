@@ -1,0 +1,12 @@
+# Python packages installable via pip
+pandas
+matplotlib
+seaborn
+japanize-matplotlib
+numpy
+
+# Note: PyQGIS (the `qgis` Python bindings) is provided by your QGIS
+# installation and is not available via pip. Your scripts prepend QGIS
+# paths (e.g. in `qgis_test.py` and `xml_to_csv.py`) to `sys.path` to use
+# the QGIS Python API. Install QGIS separately and ensure the Python
+# environment's site-packages include the QGIS bindings before running.
